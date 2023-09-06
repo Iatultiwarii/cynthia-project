@@ -7,6 +7,11 @@ const scroll = new LocomotiveScroll({
 // attach locomotive scrollminjs
 // some code from github for js
 
+const now= new Date();
+const hours=now.getHours();
+const minutes =now.getMinutes()
+document.querySelector("#footerlefttime").innerHTML=`${hours} : ${minutes}`
+console.log(`${hours} : ${minutes}` )
 function circle(){
     window.addEventListener("mousemove",function(dets){
     document.querySelector("#mini").style.transform = `translate(${dets.clientX}px,${dets.clientY}px)`;
@@ -29,7 +34,7 @@ function page1(){
     y:0,
     ease:Expo.easeInOut,
     duration:2,
-    stragger:.2
+    
 
 })
 }

@@ -1,7 +1,7 @@
 *{
     padding:0;
     margin:0;
-    font-family:Courier, monospace;
+    font-family:General Sans Regular;
     box-sizing: border-box;
 
 }
@@ -99,7 +99,7 @@ color: white;
     position: relative;
 }
 #page3 a:hover{
-    background:#4CAF50 ;
+    background:#fff ;
 
 }
 
