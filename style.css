@@ -153,9 +153,11 @@ opacity: .6;
         background-color: black;
         justify-content: space-between;
         padding-bottom: 10px;
+        
     }
    #footer #footerright a{
         text-decoration: none;
         color: #fff;
+        padding-inline: 5px;
     }
 
