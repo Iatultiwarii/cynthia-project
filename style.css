@@ -152,6 +152,7 @@ opacity: .6;
         color: #fff;
         background-color: black;
         justify-content: space-between;
+        padding-bottom: 10px;
     }
    #footer #footerright a{
         text-decoration: none;
