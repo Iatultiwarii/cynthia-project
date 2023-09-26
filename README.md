@@ -4,3 +4,6 @@
   I used GSAP,LOCOMOTIVE in this project.
   A good learning overall.
 
+  <a>
+  https://iatultiwarii.github.io/cynthia-project/</a>
+
