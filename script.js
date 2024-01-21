@@ -7,18 +7,19 @@ const scroll = new LocomotiveScroll({
 // attach locomotive scrollminjs
 // some code from github for js
 
-const now= new Date();
-const hours=now.getHours();
-const minutes =now.getMinutes()
-document.querySelector("#footerlefttime").innerHTML=`${hours} : ${minutes}`
-console.log(`${hours} : ${minutes}` )
-function circle(){
+ const now= new Date();
+ const hours=now.getHours();
+ const minutes =now.getMinutes()
+ document.querySelector("#footerlefttime").innerHTML=`${hours} : ${minutes}`
+ console.log(`${hours} : ${minutes}` )
+ function circle()
+ {
     window.addEventListener("mousemove",function(dets){
     document.querySelector("#mini").style.transform = `translate(${dets.clientX}px,${dets.clientY}px)`;
     })
-}
+ }
 circle();
-//jab mouse move ho to hum skew kar paaye
+ //jab mouse move ho to hum skew kar paaye
 
 function page1(){
     var t1=gsap.timeline();
@@ -31,9 +32,9 @@ function page1(){
     }
     )
 .to(".elem",{
-    y:0,
-    ease:Expo.easeInOut,
-    duration:2,
+      y:0,
+     ease:Expo.easeInOut,
+      duration:2,
     
 
 })
