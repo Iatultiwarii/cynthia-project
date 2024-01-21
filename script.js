@@ -70,6 +70,4 @@ document.querySelectorAll("#plug").forEach(function(plug) {plug.addEventListener
         });
     });    
     });
-        
-
 page1();

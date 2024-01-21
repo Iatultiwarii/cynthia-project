@@ -125,11 +125,12 @@ color: rgb(191, 28, 28);
     line-height: 1;
     margin-bottom: 30px;
 }
-#about a{
+#btn{
     padding: 12px 22px;
     border: 1px solid #fff;
     border-radius: 90px;
     text-decoration: none;
+    color:white;
 }
 #subscribe{
     background-color: rgb(34, 4, 141);
@@ -160,4 +161,3 @@ opacity: .6;
         color: #fff;
         padding-inline: 5px;
     }
-
