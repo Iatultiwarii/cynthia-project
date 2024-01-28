@@ -6,7 +6,7 @@
  }
  html,body{
     width:100vw;
-    background-color: rgb(39, 13, 235);
+    background-color: rgb(11, 11, 12);
 }
 
 #mini{
@@ -35,7 +35,7 @@ height: 2vh;
 height:50px;
 }
 #hero{
-    background-color: rgb(30, 20, 222);
+    background-color: rgb(20, 20, 30);
     color:white;
     height: 100vh;
     width:100%;
@@ -68,7 +68,7 @@ color: rgb(191, 28, 28);
 }
 #page2{
     width:100%;
-    background-color: rgba(15, 12, 193, 0.836);
+    background-color: rgba(18, 18, 21, 0.836);
     height: 100vh;
     padding-top: 15vh;
     padding-bottom: 5vh;
@@ -133,7 +133,7 @@ color: rgb(191, 28, 28);
     color:white;
 }
 #subscribe{
-    background-color: rgb(34, 4, 141);
+    background-color: rgb(14, 13, 16);
     color: #fff;
     padding: 20px 20px;
     margin-bottom: 50px;
